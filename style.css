@@ -243,7 +243,7 @@ aside.new .new_item p {
     top: 9vh;
     height: 100vh;
     background-color: var(--Off-white);
-    width: 50vw;
+    width: 75vw;
     z-index: 9;
     transition: right 500ms ease-in-out;
   }
