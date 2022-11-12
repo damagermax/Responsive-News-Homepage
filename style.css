@@ -239,17 +239,18 @@ aside.new .new_item p {
   }
   .navbar {
     position: absolute;
-    right: -100%;
+    right: 0;
     top: 9vh;
     height: 100vh;
     background-color: var(--Off-white);
-    width: 50vw;
     z-index: 9;
-    transition: right 500ms ease-in-out;
+    display: none;
+    width: 70vw;
+    transition: display 300ms ease;
   }
 
   .navbar.show {
-    right: 0;
+    display: block;
   }
 
   nav ul {
