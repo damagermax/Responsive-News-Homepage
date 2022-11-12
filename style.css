@@ -265,17 +265,11 @@ aside.new .new_item p {
   }
   /* ? nav end ================ */
 
-  html {
-    font-size: 10px;
+  body {
+    padding-inline: 16px;
   }
 
   .news_items {
     grid-template-columns: repeat(1, 1fr);
-  }
-}
-
-@media (max-width: 300px) {
-  html {
-    font-size: 8px;
   }
 }
